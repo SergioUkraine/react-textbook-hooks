@@ -1,8 +1,8 @@
 {
-  "name": "222-redux",
+  "name": "react-textbook-hooks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SergioUkraine.github.io/222-redux/",
+  "homepage": "https://SergioUkraine.github.io/react-textbook-hooks/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
