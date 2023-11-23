@@ -2,7 +2,7 @@ import { Wrapper, Section, Title } from './AppBar.styled';
 import TaskCounter from 'components/TaskCounter';
 import StatusFilter from 'components/StatusFilter';
 
-function AppBar() {
+function AppBar({ ...otherProps }) {
   return (
     <Wrapper>
       <Section>
@@ -11,7 +11,7 @@ function AppBar() {
       </Section>
       <Section>
         <Title>Filter by status</Title>
-        <StatusFilter />
+        <StatusFilter {...otherProps} />
       </Section>
     </Wrapper>
   );

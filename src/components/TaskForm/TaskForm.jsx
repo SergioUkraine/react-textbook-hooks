@@ -1,9 +1,9 @@
 import { Form, Input } from './TaskForm.styled';
 import Button from 'components/Button';
 
-function TaskForm() {
+function TaskForm({ hadleSubmit }) {
   return (
-    <Form>
+    <Form onSubmit={hadleSubmit}>
       <Input type="text" name="text" palceholder="Enter task text..." />
       <Button type="submit">Add task</Button>
     </Form>

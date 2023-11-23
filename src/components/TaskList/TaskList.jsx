@@ -1,12 +1,12 @@
 import { List, ListItem } from './TaskList.styled';
 import Task from 'components/Task';
 
-function TaskList({ visibleTasks }) {
+function TaskList({ tasks, ...otherProps }) {
   return (
     <List>
-      {visibleTasks.map(task => (
+      {tasks.map(task => (
         <ListItem key={task.id}>
-          <Task task={task} />
+          <Task task={task} {...otherProps} />
         </ListItem>
       ))}
     </List>
