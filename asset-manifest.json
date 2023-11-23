@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-textbook-hooks/static/css/main.65b83a48.css",
+    "main.js": "/react-textbook-hooks/static/js/main.ab567652.js",
+    "index.html": "/react-textbook-hooks/index.html",
+    "main.65b83a48.css.map": "/react-textbook-hooks/static/css/main.65b83a48.css.map",
+    "main.ab567652.js.map": "/react-textbook-hooks/static/js/main.ab567652.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65b83a48.css",
+    "static/js/main.ab567652.js"
+  ]
+}
